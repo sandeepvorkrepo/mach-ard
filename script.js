@@ -1,4 +1,4 @@
-const API_KEY = "PUT_YOUR_CRICKETDATA_API_KEY_HERE";
+const API_KEY = "d0c1fd6b-6f31-4bc9-8958-cd27c6291c52";
 const apiUrl = (key) => `https://cricketdata.org/api/matches?apikey=${key}&type=international`;
 
 const matchesEl = document.getElementById('matches');
