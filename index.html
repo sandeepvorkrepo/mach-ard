@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Live Cricket Scores — Card View</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>🏏 Live Cricket — International Matches</h1>
+      <p class="sub">Beautiful match cards • Auto-refreshing live scores</p>
+    </header>
+
+    <main>
+      <div id="matches" class="matches-grid">
+        <!-- Match cards injected here -->
+      </div>
+
+      <div id="empty" class="empty hidden">
+        <p>No live international matches found right now.</p>
+        <button id="demoBtn">Load Demo Data</button>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <small>Powered by CricketData.org (insert your API key in <code>script.js</code>)</small>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
